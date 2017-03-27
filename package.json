@@ -4,7 +4,8 @@
   "description": "Sample Code School Project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/"
+    "test": "./node_modules/.bin/mocha test/",
+    "test-kitten": "./node_modules/.bin/mocha -R nyan test/"
   },
   "author": "",
   "license": "ISC",
